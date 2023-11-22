@@ -8,7 +8,7 @@ TarjamAI is an innovative Streamlit application designed to facilitate language 
 - **Video Processing**: Integrates ffmpeg to burn subtitles directly onto video files for an immersive learning experience.
 
 ## Current Status
-TarjamAI is a work in progress. The project has successfully implemented transcription and subtitle generation. However, it is currently paused due to challenges in processing power required for the ffmpeg video burning process. Please see [TarjamAI - Flask]([github.com](https://github.com/hamza-rashid/TarjamAI-Flask/tree/main)) for my flask application that builds upon this idea to utilise TransloadIt for the video processing. 
+TarjamAI is a work in progress. The project has successfully implemented transcription and subtitle generation. However, it is currently paused due to challenges in processing power required for the ffmpeg video burning process. Please see [TarjamAI - Flask](https://github.com/hamza-rashid/TarjamAI-Flask/tree/main) for my flask application that builds upon this idea to utilise TransloadIt for the video processing. 
 
 
 ## Contribution
