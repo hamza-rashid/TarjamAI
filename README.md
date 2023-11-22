@@ -1,1 +1,1 @@
-# TarjamAI
+# TarjamAI [Streamlit]
