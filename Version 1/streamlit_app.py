@@ -19,11 +19,8 @@ with st.form(key="my_form"):
         # upload audio and srt file with streamlit
         video_file = st.file_uploader("Upload Video", type=["mp4", "m4a"])
         srt_file = st.file_uploader("Upload Subtitles", type=["srt"])
-
-
         submit_button = st.form_submit_button(label="Subtitle")        
-
-
+        
 def generator(txt):
     reshaped_text = arabic_reshaper.reshape(txt)
     bidi_text = get_display(reshaped_text)
@@ -65,14 +62,6 @@ if video_file and srt_file is not None:
 
     with open(srt_file.name, "r") as file:
         srt_content = file.read()
-               
-        
-        
-        
-        
-
-    #with open(srt_file.name, "w") as srt_file_updated:
-    #    srt_file_updated.write(srt_file.getvalue().decode('UTF-8'))  
         subs = SubtitlesClip(file.name, generator)
         st.text(subs)
         
