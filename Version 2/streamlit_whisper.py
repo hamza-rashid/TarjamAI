@@ -13,7 +13,6 @@ from io import BytesIO
 from transloadit import client
 
 # Set OpenAI API Key's (hidden)
-API_KEY =""
 openai.api_key = API_KEY
 
 
