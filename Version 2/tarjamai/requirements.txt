@@ -1,0 +1,13 @@
+moviepy==1.0.3
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+ffmpeg==1.4
+ffmpeg-downloader==0.2.0
+ffmpeg-python==0.2.0
+imageio-ffmpeg==0.4.8
+pysrt==1.1.2
+streamlit==1.22.0
+openai==0.27.6
+streamlit-image-select==0.6.0
+pytransloadit==0.2.1
+
